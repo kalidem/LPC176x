@@ -23,7 +23,7 @@
 // If none is enabled pin mappings from generic_map.h will be used
 //#define SMOOTHIEBOARD
 //#define BOARD_RAMPS_16
-//#define BOARD_BTT_SKR_13
+#define BOARD_BTT_SKR_13
 //#define BOARD_BTT_SKR_14_TURBO
 //#define BOARD_BTT_SKR_E3_TURBO  // With onboard Trinamic TNMC2209 drivers. NOTE: not verified!
 //#define BOARD_MKS_SBASE_13
@@ -40,7 +40,7 @@
 //#define SDCARD_ENABLE      1 // Run gcode programs from SD card. Set to 2 to enable YModem upload.
 //#define MPG_ENABLE         1 // Enable MPG interface. Requires serial port and one handshake pin.
 //#define TRINAMIC_ENABLE 2130 // Uncomment to enable Trinamic TMC2130 driver support. NOTE: Experimental for now, currently for SKR 1.x boards only
-//#define TRINAMIC_ENABLE 2209 // Uncomment to enable Trinamic TMC2209 driver support. NOTE: Experimental for now, currently for SKR 1.x boards only
+#define TRINAMIC_ENABLE 2209 // Uncomment to enable Trinamic TMC2209 driver support. NOTE: Experimental for now, currently for SKR 1.x boards only
 //#define TRINAMIC_ENABLE 5160 // Uncomment to enable Trinamic TMC5160 driver support. NOTE: Experimental for now, currently for SKR E3 Turbo board only
 //#define LIMIT_MAX_ENABLE   1 // Uncomment to enable max limit input pins (when available)
 //#define EEPROM_ENABLE     16 // I2C EEPROM/FRAM support. Set to 16 for 2K, 32 for 4K, 64 for 8K, 128 for 16K and 256 for 16K capacity.
